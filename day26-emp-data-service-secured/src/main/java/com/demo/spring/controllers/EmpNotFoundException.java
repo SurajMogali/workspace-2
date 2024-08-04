@@ -1,0 +1,4 @@
+package com.demo.spring.controllers;
+
+public class EmpNotFoundException extends Exception {
+}

@@ -1,0 +1,8 @@
+spring:datasource:
+  driver-class-name: org.mariadb.jdbc.Driver
+  username: ${DB_USER:root}
+  url : ${JDBC_URL:jdbc:mariadb://localhost:3306/sapientdb}
+  password: ${DB_PASSWORD:root}
+  
+jpa:
+   show-sql: true
